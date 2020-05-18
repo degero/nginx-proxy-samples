@@ -2,18 +2,18 @@
 
 ## Introduction
 
-Helper scripts, templates and docker compose to quickly wire up a dockerized nginx proxy using jwilder nginx-proxy container
-
-## Docker compose
-
-- nginx-proxy/docker-compose.yaml -
+Helper scripts, templates and docker compose to quickly wire up a dockerized nginx proxy using jwilder nginx-proxy containergit
 
 ## Powershell
 
-- nginx-proxy/nginx-proxy-letsencrypt.ps1 - docker run of nginx-proxy and letsencrypt companion running on 80:443 (built by jwilder)
+- nginx-proxy/nginx-proxy-letsencrypt.ps1 - docker run of nginx-proxy and docker-letsencrypt-nginx-proxy-companion running on 80:443 (built by jwilder)
   -- Args: email (email of target hostname to recieve letencrypt notifications)
 
 - nginx-proxy/nginx-proxied-sample.ps1 - sample docker run to launch proxied container on a hostname (expects EXPOSE 80 on containers)
+
+## Docker compose
+
+- nginx-proxy/docker-compose.yaml - runs nginx-proxy and docker-letsencrypt-nginx-proxy-companion
 
 ## nginx
 
