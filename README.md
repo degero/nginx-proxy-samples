@@ -1,8 +1,8 @@
-# nginx-reverse-proxy-samples
+# nginx-proxy-samples
 
 ## Introduction
 
-Helper scripts, templates and docker compose to quickly wire up a dockerized nginx proxy
+Helper scripts, templates and docker compose to quickly wire up a dockerized nginx proxy using jwilder nginx-proxy container
 
 ## Docker compose
 
