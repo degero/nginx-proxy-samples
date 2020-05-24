@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Helper scripts, templates and docker compose to quickly wire up a dockerized nginx proxy using jwilder nginx-proxy containergit
+Helper scripts, templates and docker compose to quickly wire up a dockerized nginx proxy with ssl using jwilder/nginx-proxy etc
 
 ## Powershell
 
